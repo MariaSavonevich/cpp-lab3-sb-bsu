@@ -9,7 +9,7 @@ if (k==0)
     cout<< "Enter a non-zero number next time";
 else {
 do {
-cout << "Enter integer nr. " << i << ": "; 
+cout << "Enter an integer " << i << ": "; 
 cin >> number;
 sum_k += number; i++;
 } while (i <= k);
