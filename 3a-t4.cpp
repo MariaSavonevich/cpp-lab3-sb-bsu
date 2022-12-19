@@ -15,7 +15,7 @@ cin.clear();
 cin.ignore();  
 cout << "Enter once more = ";  
 cin >> number;} 
-sum_k += number; i++;  
+sum += number; i++;  
 } while (i <= k);  
 cout << " The total sum of " << k << " integers is: "  << sum;}  
 return 0;  
