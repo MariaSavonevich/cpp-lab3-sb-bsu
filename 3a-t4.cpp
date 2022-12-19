@@ -1,6 +1,7 @@
+
 #include<iostream>   
 using namespace std;   
-  
+ 
 int main()  
 {  
 int k, i = 1, sum = 0, number;  
@@ -20,3 +21,4 @@ sum += number; i++;
 cout << " The total sum of " << k << " integers is: "  << sum;}  
 return 0;  
 }
+
